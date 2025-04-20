@@ -74,6 +74,10 @@ h6 {
   font-weight: 700;
 }
 
+img .logo{
+  width:50%;
+}
+
 p {
   font-family: "Lato", sans-serif;
   color: #595959;
