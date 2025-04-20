@@ -79,7 +79,6 @@ img .logo{
 }
 
 .whatsapp-button {
-  display: inline-flex;
   align-items: center;
   background-color: #25D366;
   color: white;
@@ -89,6 +88,10 @@ img .logo{
   font-weight: bold;
   font-size: 16px;
   transition: background-color 0.3s ease;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
 }
 
 .whatsapp-button img {
@@ -99,6 +102,7 @@ img .logo{
 
 .whatsapp-button:hover {
   background-color: #128C7E;
+  transform: scale(1.1);
 }
 
 p {
