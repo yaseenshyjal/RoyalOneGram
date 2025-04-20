@@ -78,6 +78,29 @@ img .logo{
   width:50%;
 }
 
+.whatsapp-button {
+  display: inline-flex;
+  align-items: center;
+  background-color: #25D366;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-button img {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.whatsapp-button:hover {
+  background-color: #128C7E;
+}
+
 p {
   font-family: "Lato", sans-serif;
   color: #595959;
